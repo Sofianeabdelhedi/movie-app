@@ -8,6 +8,7 @@ export const movielist = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BOGIzOTZiZjItNTMyYS00ODcyLWE2ZDUtYWNjZDNmNTUxYjVkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY1200_CR90,0,630,1200_AL_.jpg",
     rating: "5",
+    trailer: "https://www.youtube.com/embed/NiFuJV2GLkY",
   },
   {
     id: Math.random(),
@@ -17,6 +18,7 @@ export const movielist = [
       "A hardened mercenary's mission becomes a soul-searching race to survive when he's sent into Bangladesh to rescue a drug lord's kidnapped son.",
     posterURL: "https://m.media-amazon.com/images/I/71XW-pj3wRL._AC_SY679_.jpg",
     rating: "3",
+    trailer: "https://www.youtube.com/embed//L6P3nI6VnlY",
   },
   {
     id: Math.random(),
@@ -26,6 +28,7 @@ export const movielist = [
       "Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.",
     posterURL: "https://m.media-amazon.com/images/I/41sRIihnXzL.jpg",
     rating: "4",
+    trailer: "https://www.youtube.com/embed//o2AsIXSh2xo",
   },
   {
     id: Math.random(),
@@ -36,6 +39,7 @@ export const movielist = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BYzE1YzViNzktZTU5Ny00ZjYzLWE0YjItZWNkNDU1MzFiOWNhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
     rating: "2",
+    trailer: "https://www.youtube.com/embed//5fKn0Dhj64w",
   },
   {
     id: Math.random(),
@@ -46,5 +50,6 @@ export const movielist = [
     posterURL:
       "https://fr.web.img4.acsta.net/pictures/21/02/15/09/58/1192251.jpg",
     rating: "1",
+    trailer: "https://www.youtube.com/embed//hRuUB6RKExQ",
   },
 ];

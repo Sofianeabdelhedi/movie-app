@@ -7,7 +7,7 @@ import AddMovie from './AddMovie'
 const HeaderApp = ({text,handleText,rating, handleRating,handleAdd}) => {
     return (
         <div className='header'>
-            <Navbar bg="dark" variant= "dark"  expand="lg" className="mb-3 nav">
+            <Navbar bg="dark" variant= "dark"  expand="lg" className="mb-3">
   <Navbar.Brand href="#">Movie App</Navbar.Brand>
   <Navbar.Toggle/>
   <Navbar.Collapse className="justify-content-end">

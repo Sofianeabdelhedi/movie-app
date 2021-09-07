@@ -90,8 +90,8 @@ const handleSubmit = (e) =>{
     <Form.Label>Poster URL</Form.Label>
     <Form.Control type="url"  value={posterURL}  onChange={(e)=>setPosterURL(e.target.value)}/>
   </Form.Group>
-<Button variant="outline-primary btn" type='submit'>Add</Button>
-<Button variant="outline-danger btn" type='cancel'>Cancel</Button>
+<Button variant="outline-primary btnform" type='submit'>Add</Button>
+<Button variant="outline-danger btnform" type='cancel'>Cancel</Button>
 </Form>
       </Modal>
         </div>

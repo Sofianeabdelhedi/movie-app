@@ -2,9 +2,9 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import StarRating from "./StarRating";
+import { Link } from "react-router-dom";
 
 const MovieCard = ({ movies }) => {
-  console.log(movies);
   return (
     <div className="movieCard">
       <Card>
@@ -18,10 +18,10 @@ const MovieCard = ({ movies }) => {
             <br />
             <StarRating rating={movies.rating} />
             <br />
-            {movies.description}
-            <br />
           </Card.Text>
-          <Button variant="primary btn">Watch it</Button>
+          <Link to={`/movie/${movies.id}`}>
+            <Button variant="primary btn">See more</Button>
+          </Link>
         </Card.Body>
       </Card>
     </div>
